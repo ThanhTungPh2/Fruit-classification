@@ -27,4 +27,8 @@ Hình trên là bài toán phân lớp với ba lớp: đỏ, lam, lục. Mỗi 
 Xét một mẫu dữ liệu x gồm m thuộc tính. Khi đó, mẫu x được xem là một véc tơ trong không gian m chiều (x có m thành phần). Gọi x(x1, x2,…, xm) và y(y1, y2,…, ym) là hai mẫu dữ liệu. Để tính khoảng cách giữa x và y, ký hiệu d(x, y) ta thường sử dụng một số độ đo sau:
 Với dữ liệu kiểu số
 
+- Khoảng cách Euclidean : 
+```txt
+d(x,y)=√((x_1-y_1 )^2+(x_2-y_2 )^2+...+(x_m-y_m )^2 ).
+```
 
