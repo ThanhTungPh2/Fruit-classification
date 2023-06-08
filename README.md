@@ -5,7 +5,9 @@
 ###	Định nghĩa
 K – nearest neighbor (KNN) là một trong những thuật toán học có giám sát đơn giản nhất trong Machine Learning. Ý tưởng của KNN là tìm ra output của dữ liệu dựa trên thông tin của những dữ liệu training gần nó nhất.
 Kỹ thuật phân lớp dựa trên láng giềng gần nhất được sử dụng rộng rãi trong các hệ thống nhận dạng mẫu, nhận dạng đối tượng, nhận dạng sự kiện, phân loại dữ liệu văn bản… Khái niệm “láng giềng” dùng để chỉ các đối tượng có khoảng cách hoặc độ tương đồng “gần” với đối tượng x. Từ đây, ta cần phải định nghĩa một độ đo khoảng cách hoặc độ đo sự khác biệt giữa các đối tượng.
-####	Quy trình làm việc của thuật toán KNN
+
+###	Quy trình làm việc của thuật toán KNN
+
 *	Bước 1: Xác định tham số K = số láng giềng gần nhất
 *	Bước 2: Tính khoảng cách đối tượng cần phần lớp với tất cả các đối tượng trong training data.
 *	Bước 3: Sắp xếp khoảng cách theo thứ tự tăng dần và xác định K láng giềng gần nhất với đối tượng cần phân lớp
