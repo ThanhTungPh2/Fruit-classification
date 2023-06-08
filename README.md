@@ -1,4 +1,4 @@
-# Fruit classification project with DNN algorithm
+# Fruit classification project with KNN algorithm
 
 ## Thuật toán K-Nearest Neighbor
 
@@ -19,3 +19,25 @@ Kỹ thuật phân lớp dựa trên láng giềng gần nhất được sử d�
 ![image](https://github.com/ThanhTungPh2/Fruit-classification/assets/78742865/57fc412c-301e-4653-b2d3-37c723a45bcf)
 
 Hình trên là bài toán phân lớp với ba lớp: đỏ, lam, lục. Mỗi điểm dữ liệu mới sẽ được gán nhãn theo màu của điểm đó mà nó thuộc về. Trong hình này, chú ý vùng khoanh tròn. Ta nhận thấy rằng điểm màu lục nằm giữa hai vùng lớn với nhiều dữ liệu đỏ và lam, điểm này rất có thể là nhiễu dẫn đến việc dữ liệu test nếu rơi vào vùng này sẽ có nhiều khả năng cho kết quả sai lệch.
+
+###	Độ đo khoảng cách
+Để xác định độ “gần nhau” giữa hai mẫu dữ liệu, người ta sử dụng một độ đo khoảng cách được định nghĩa trước. Tùy theo kiểu dữ liệu của mẫu và đặc điểm của đối tượng nhận dạng mà ta sử dụng một độ đo phù hợp. Có rất nhiều độ đo khoảng cách (hay độ khác biệt) đã được định nghĩa.
+Xét một mẫu dữ liệu x gồm m thuộc tính. Khi đó, mẫu x được xem là một véc tơ trong không gian m chiều (x có m thành phần). Gọi x(x1, x2,…, xm) và y(y1, y2,…, ym) là hai mẫu dữ liệu. Để tính khoảng cách giữa x và y, ký hiệu d(x, y) ta thường sử dụng một số độ đo sau:
+Với dữ liệu kiểu số
+-	Khoảng cách Euclidean :
+ ![image](https://github.com/ThanhTungPh2/Fruit-classification/assets/78742865/320f9e22-8d4c-4af5-ae7c-f2bf8f68828e)
+
+-	Khoảng cách Square Euclidean:
+ ![image](https://github.com/ThanhTungPh2/Fruit-classification/assets/78742865/8f722977-5de4-4b85-a8ed-7005a8049ffe)
+
+Dễ thấy, khoảng cách này chính là bình phương của khoảng cách Euclidean: d(x,y)=||x-y||^2.
+-	Khoảng cách Manhattan:
+ ![image](https://github.com/ThanhTungPh2/Fruit-classification/assets/78742865/6cd69f39-6a11-4cfe-8152-0c39fcb7e0d4)
+
+Khoảng cách này chính là chuẩn 1 của x-y: d(x, y) = ||x-y||^1.
+-	Khoảng cách Chebyshev:
+ ![image](https://github.com/ThanhTungPh2/Fruit-classification/assets/78742865/e7a80970-52b1-4d45-b60f-a4121b0fd06c)
+
+Khoảng cách này chính là chuẩn vô cùng của x-y: d(x, y) = ||x-y||∞.
+-	Khoảng cách Cosin:
+
