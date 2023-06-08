@@ -28,7 +28,7 @@ Xét một mẫu dữ liệu x gồm m thuộc tính. Khi đó, mẫu x được
 Với dữ liệu kiểu số
 
 - Khoảng cách Euclidean : 
-```txt
+`
 d(x,y)=√((x_1-y_1 )^2+(x_2-y_2 )^2+...+(x_m-y_m )^2 ).
-```
+`
 
