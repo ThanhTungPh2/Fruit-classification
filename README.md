@@ -31,4 +31,15 @@ Với dữ liệu kiểu số
 `
 d(x,y)=√((x_1-y_1 )^2+(x_2-y_2 )^2+...+(x_m-y_m )^2 ).
 `
+-	Khoảng cách Square Euclidean:
+`d(x,y)=(x_1-y_1 )^2+(x_2-y_2 )^2+...+(x_m-y_m )^2.`
+Dễ thấy, khoảng cách này chính là bình phương của khoảng cách Euclidean: d(x,y)=||x-y||2.
+-	Khoảng cách Manhattan:
+`d(x,y)=|x_1-y_1 |+|x_2-y_2 |+...+|x_m-y_m |.`
+Khoảng cách này chính là chuẩn 1 của x-y: d(x, y) = ||x-y||1.
+-	Khoảng cách Chebyshev:
+`d(x,y)=(Max)┬i   |x_i-y_i |.`
+Khoảng cách này chính là chuẩn vô cùng của x-y: d(x, y) = ||x-y||∞.
+-	Khoảng cách Cosin:
+`d("x,y")=1-(x_1 y_1+x_2 y_2+...+x_m y_m)/(√(x_1^2+x_2^2+...+x_m^2 ).√(y_1^2+y_2^2+...+y_m^2 )).`
 
