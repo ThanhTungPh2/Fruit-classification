@@ -1,8 +1,8 @@
 # Fruit classification project with DNN algorithm
 
 ## Thuật toán K-Nearest Neighbor
-###	Thuật toán KNN
-####	Định nghĩa
+
+###	Định nghĩa
 K – nearest neighbor (KNN) là một trong những thuật toán học có giám sát đơn giản nhất trong Machine Learning. Ý tưởng của KNN là tìm ra output của dữ liệu dựa trên thông tin của những dữ liệu training gần nó nhất.
 Kỹ thuật phân lớp dựa trên láng giềng gần nhất được sử dụng rộng rãi trong các hệ thống nhận dạng mẫu, nhận dạng đối tượng, nhận dạng sự kiện, phân loại dữ liệu văn bản… Khái niệm “láng giềng” dùng để chỉ các đối tượng có khoảng cách hoặc độ tương đồng “gần” với đối tượng x. Từ đây, ta cần phải định nghĩa một độ đo khoảng cách hoặc độ đo sự khác biệt giữa các đối tượng.
 ####	Quy trình làm việc của thuật toán KNN
@@ -12,7 +12,7 @@ Kỹ thuật phân lớp dựa trên láng giềng gần nhất được sử d�
 *	Bước 4: Lấy tất cả các lớp của K láng giềng gần nhất.
 *	Bước 5: Dựa vào phần lớn lớp của K để xác định lớp cho đối tượng cần phân lớp.
 
-#### Ví dụ về KNN nhiễu
+### Ví dụ về KNN nhiễu
 
 ![image](https://github.com/ThanhTungPh2/Fruit-classification/assets/78742865/57fc412c-301e-4653-b2d3-37c723a45bcf)
 
